@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>404774671115-evjk2g1gmt2n11c14ju8jn0dnq6l3vss.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.404774671115-evjk2g1gmt2n11c14ju8jn0dnq6l3vss</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAD13UZ6STnu3PzBHLs7igRWtPMBVGtzss</string>
+	<key>GCM_SENDER_ID</key>
+	<string>404774671115</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.evCharger</string>
+	<key>PROJECT_ID</key>
+	<string>ev-project-8b58e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ev-project-8b58e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:404774671115:ios:7b40d99f3fa1ffa4ed480e</string>
+</dict>
+</plist>

@@ -1,0 +1,40 @@
+{
+
+  "project_info": {
+    "project_number": "404774671115",
+    "project_id": "ev-project-8b58e",
+    "storage_bucket": "ev-project-8b58e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404774671115:android:919445b9a990b079ed480e",
+        "android_client_info": {
+          "package_name": "com.example.ev_charger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404774671115-cav9vp3kpo56qccgbjugltm010d4n0qg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTghaZq7nxb5W1X02ICfqw41O_MHr7c8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404774671115-cav9vp3kpo56qccgbjugltm010d4n0qg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
