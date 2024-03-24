@@ -47,6 +47,7 @@ dependencies:
   url_launcher: ^6.2.5
   barcode_scan2: ^4.2.1
   qr_flutter: ^4.0.0
+  firebase_messaging: ^14.7.20
 
 dev_dependencies:
   flutter_launcher_icons: "^0.13.1"

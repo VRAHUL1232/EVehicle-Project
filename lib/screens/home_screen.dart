@@ -7,7 +7,9 @@ import 'package:ev_charger/screens/drawer_screens/my_account.dart';
 import 'package:ev_charger/screens/drawer_screens/preferred_location.dart';
 import 'package:ev_charger/screens/location_search.dart';
 import 'package:ev_charger/screens/place_details.dart';
+import 'package:ev_charger/screens/user_success.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_map/flutter_map.dart';
@@ -53,10 +55,18 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+  void setupNotification() async {
+    final fcm = FirebaseMessaging.instance;
+    await fcm.requestPermission();
+    final token = await fcm.getToken();
+    print(token);
+  }
+
   @override
   void initState() {
     super.initState();
     drawerNavigator(onSelectedScreen);
+    setupNotification();
   }
 
   logout() async {
@@ -261,6 +271,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         qrcodedata = codeScanner.rawContent;
                       },
                     );
+                    Navigator.of(context).push(MaterialPageRoute(builder:(context) => UserSuccess(),));
                   },
                   icon: Icon(
                     Icons.qr_code,

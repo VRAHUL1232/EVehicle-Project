@@ -11,14 +11,6 @@ class MainScreen extends StatelessWidget {
       backgroundColor: Colors.black,
       appBar: AppBar(
         backgroundColor: Colors.black,
-        actions: [
-          IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.search,
-                color: Colors.white,
-              ))
-        ],
       ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10),
